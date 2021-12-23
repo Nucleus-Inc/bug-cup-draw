@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D60BF9272773F2B40039509F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60BF9262773F2B40039509F /* main.cpp */; };
+		D60BF92E2773F76B0039509F /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60BF92D2773F76B0039509F /* node.cpp */; };
+		D60BF9302773F87F0039509F /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60BF92F2773F87F0039509F /* list.cpp */; };
+		D60BF9322773FAB70039509F /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60BF9312773FAB70039509F /* player.cpp */; };
+		D60BF934277410DA0039509F /* bowl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60BF933277410DA0039509F /* bowl.cpp */; };
+		D60BF93627741BDF0039509F /* clan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60BF93527741BDF0039509F /* clan.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		D60BF9232773F2B40039509F /* bug-cup-draw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bug-cup-draw"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60BF9262773F2B40039509F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D60BF92D2773F76B0039509F /* node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		D60BF92F2773F87F0039509F /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		D60BF9312773FAB70039509F /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		D60BF933277410DA0039509F /* bowl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bowl.cpp; sourceTree = "<group>"; };
+		D60BF93527741BDF0039509F /* clan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clan.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +51,12 @@
 		D60BF91A2773F2B40039509F = {
 			isa = PBXGroup;
 			children = (
-				D60BF9252773F2B40039509F /* bug-cup-draw */,
+				D60BF93527741BDF0039509F /* clan.cpp */,
+				D60BF933277410DA0039509F /* bowl.cpp */,
+				D60BF9312773FAB70039509F /* player.cpp */,
+				D60BF92F2773F87F0039509F /* list.cpp */,
+				D60BF92D2773F76B0039509F /* node.cpp */,
+				D60BF9262773F2B40039509F /* main.cpp */,
 				D60BF9242773F2B40039509F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +67,6 @@
 				D60BF9232773F2B40039509F /* bug-cup-draw */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D60BF9252773F2B40039509F /* bug-cup-draw */ = {
-			isa = PBXGroup;
-			children = (
-				D60BF9262773F2B40039509F /* main.cpp */,
-			);
-			path = "bug-cup-draw";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +126,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60BF9322773FAB70039509F /* player.cpp in Sources */,
 				D60BF9272773F2B40039509F /* main.cpp in Sources */,
+				D60BF92E2773F76B0039509F /* node.cpp in Sources */,
+				D60BF934277410DA0039509F /* bowl.cpp in Sources */,
+				D60BF9302773F87F0039509F /* list.cpp in Sources */,
+				D60BF93627741BDF0039509F /* clan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
